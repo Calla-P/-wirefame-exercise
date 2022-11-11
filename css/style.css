@@ -1,0 +1,77 @@
+/* CSS Eric Meyers Reset */
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* I understand that I am suppose to have a container that is a flexbox. It should include a header with an inline nav. I should have thrre columns in my main. Ill have flex-items inside flex items. 
+1 item in my first row. 
+3 items in my second row 
+2 items in my third row, the text items will have a button
+then the flex box footer.
+I ought to work from the top down and use the resource of a flexbox cheatsheet. 
+Here is the thing though, i find this flexing confusing and am unclear on how to start. 
+
+Ill work on this more tomorrow and Saturday, in the meantime can you tell me if the meyer's reset is proper. I have not used it before and it looks a bit clunky.  */
+
+#container{
+
+    flex: content;
+    columns: 3;
+}
+
+header{
+ flex:content
+}
+
+main{
+    flex: content;
+}
+
+footer{
+    flex:content
+}
