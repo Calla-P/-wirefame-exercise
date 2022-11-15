@@ -64,52 +64,93 @@ header {
  width:100%;
  height:100px;
  background-color: grey;
+
 }
 
 #logoimage {
     width: 200px;
     height: 70px;
     background-color: black;
+    margin-top: 2%; 
+ 
 }
-#navboxes{
-    width:200px;
-    height:70;
-    background-color: darkgray;
-    justify-content: center;
+.navboxes{
+    width:250px;
+    height:65px;
+    background-color: gray;
+    justify-content:space-around;
+    padding-top: 3%;
+    text-align: center;
+   
+}
+.navconatiner{
+    width: 75%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    margin-left: 90px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+
 }
 
 
 main {
     width:960px;
-    margin:auto;
+    margin:30px auto;
 }
-#box{
-    width:960px;
-    height:450px;
-    background-color: black;
-}
+
 
 .row{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 60%;
+    margin-left: 100px;
+    
+
 }
 
-.middlebox{
-    width:300px;
-    height:375px;
-    background-color: black;
+h1{
+    padding:10px;
+    /* margin:10px; */ 
+    font-size: 20px;
+    font-weight:bold;
+    text-align:left;
 }
 
-#bottombox{
-    width:480px;
-    height:400px;
-    background-color: black;
+ul{
+    display:flex;
+    justify-content: space-between;
+    margin:30px 0;
+}
+.featured-section{
+    display:inline-block;
+    margin:0;
+    width:40%;
+    padding-left: 5%;
+
 }
 
-#bottom-text{
-    width:480px;
-    height:400px;
+.scroller {
+    width: 300px;
+    height:350px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+  }
+
+button{
+    width: 40%;
+    height: 20%;
+    color: black;
+}
+
+button:hover{
+    background-color:black;
+    color: whitesmoke;
 }
 
 footer{
@@ -117,3 +158,4 @@ footer{
     height:100px;
     background-color: grey;
 } 
+
